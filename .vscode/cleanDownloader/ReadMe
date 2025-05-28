@@ -1,0 +1,47 @@
+# 🧹 Clean My Downloads
+
+A Python script that automatically **organizes**, **cleans**, and **declutters** your Downloads folder by:
+- Sorting files into folders based on type
+- Deleting leftover `.exe` files
+- Identifying and removing duplicate files (based on content)
+- Logging all actions for transparency
+
+---
+
+## 🚀 Features
+
+- 📁 Auto-organize images, documents, music, videos, archives, and more
+- 🗑️ Automatically deletes `.exe` files (optional safety cleanup)
+- 🔍 Detects duplicate files by comparing their content
+- 🧠 Keeps only the latest version of duplicate files
+- 📝 Detailed logging of actions and errors
+
+---
+
+## 📂 Folder Structure
+
+The script organizes files into the following folders in your **home directory**:
+
+- `Images/`
+- `Documents/`
+- `Videos/`
+- `Music/`
+- `Archives/`
+- `Others/` (for unclassified files)
+
+---
+
+## 🛠 Requirements
+
+- Python 3.6+
+- No external dependencies (uses only standard libraries)
+
+---
+
+## ▶️ How to Use
+
+1. Clone this repository:
+
+```bash
+git https://github.com/ApparentlyTejas/pythonProjects
+cd clean-my-downloads
